@@ -21,8 +21,10 @@ export class UserService {
     return { ...createdUser, password: undefined };
   }
 
-  findOne(id: number) {
-    return `This action returns a #${id} user`;
+  async findByEmail(email: string) {
+    return this.prisma.user.findUnique({
+      where: { email },
+    });
   }
 
   // findAll() {
