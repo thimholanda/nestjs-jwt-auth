@@ -1,3 +1,6 @@
+## Description
+If you intent to implements auth with NestJs and JWT Token, enjoy! This is a base structure that you need for almost projects. Read NestJs documentation to know how to implement another auth strategies, like social.
+
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
